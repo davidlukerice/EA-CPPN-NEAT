@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+
+		<title>ANNE Final Project Game</title>
+		<style type="text/css">
+			@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,800");
+			@import url("css/SE_style.css");
+			@import url("css/style.css");
+		</style>
+	</head>
+	<body>
+		<canvas id='mainCanvas' width='800' height='600'>
+			Canvas not supported! It is required for this to work. Please download and use the latest <a href="https://www.google.com/intl/en/chrome/browser/">Chrome Browser</a>.
+		</canvas>
+
+		<!-- Includes -->
+		<script src='js/lib/jquery-1.9.1.min.js'>Javascript Required</script>
+		<script src='js/lib/requestAnimationFrame.js'>Javascript Required</script>
+		<script src='js/lib/stats.js'>Javascript Required</script>
+		<script src='js/lib/math.js'>Javascript Required</script>
+		<script src='js/lib/sydoEngine.js'>Javascript Required</script>
+
+		<!-- This section replaced to just include the compiled script -->
+		<div class='compiled_script'>
+			<script src='js/script.js'></script>
+
+			<!-- Managers and what not -->
+			<script src='js/interfaceManager.js'></script>
+			<script src='js/encounterManager.js'></script>
+			
+			<!-- Characters -->
+			<script src='js/characters/cameraMan.js'></script>
+			<script src='js/characters/player.js'></script>
+			<script src='js/characters/enemy.js'></script>
+			<script src='js/characters/key.js'></script>
+			<script src='js/characters/door.js'></script>
+
+			<!-- Components -->
+			<script src='js/components/collectableComponent.js'></script>
+			<script src='js/components/playerAIComponent.js'></script>
+			<script src='js/components/enemyAIComponent.js'></script>
+
+			<!-- Media -->
+			<script src='media/imageFiles.js'></script>
+			<script src='media/audioFiles.js'></script>
+		</div>
+
+	</body>
+
+</html>
